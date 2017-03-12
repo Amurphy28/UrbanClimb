@@ -57,11 +57,11 @@ include 'header.php';
 	<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
    		<div class="modal-dialog modal-lg" role="document">
     		<div class="modal-content">
-      			<div class="modal-header">
+      			<!--<div class="modal-header">
         			<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
         			<h4 class="modal-title" id="myModalLabel"><?php the_title();?></h4>
         			<span class='date'><?php the_date('M-Y', '<p>', '</p>'); ?></span>
-      			</div>
+      			</div>-->
       			<div class="modal-body">
                         <!--<div class='imageholder'>
                             <?php 
@@ -75,7 +75,7 @@ include 'header.php';
                         </div>-->
                         <div class='textholder'><?php the_content();?></div>
       			</div>
-      			<div class="modal-footer"></div>
+      			<!--<div class="modal-footer"></div>-->
       			<?php endwhile;?>
     		</div>
   		</div>
