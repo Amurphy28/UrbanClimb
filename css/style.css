@@ -165,7 +165,8 @@ a:hover {
 .pricesTable {
 	float: left; 
 	border: #eeeeee solid 2px;
-	padding:20px;
+	padding:10px;
+	margin:20px;
 }
 
 /* footer */
