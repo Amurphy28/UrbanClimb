@@ -169,6 +169,14 @@ a:hover {
 	margin:20px;
 }
 
+.modal-dialog {
+	width:90%!important;
+}
+
+.modal-body {
+	overflow: scroll;
+}
+
 /* footer */
 
 footer {
