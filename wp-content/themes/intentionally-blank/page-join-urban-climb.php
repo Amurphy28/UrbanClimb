@@ -63,6 +63,7 @@ include 'header.php';
         			<span class='date'><?php the_date('M-Y', '<p>', '</p>'); ?></span>
       			</div>-->
       			<div class="modal-body">
+      				<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
                         <!--<div class='imageholder'>
                             <?php 
                                 //if(has_post_thumbnail()) { 

@@ -8,14 +8,14 @@
 h1 {
 	font-size: 55px;
 	font-weight:500;
-	font: bold;
 	font-family: 'Montserrat', sans-serif;
 }
 
 h2 {
-	font-weight:300;
-	font:medium;
+	font-weight:400;
 	font-family: 'Montserrat', sans-serif;
+	font-size: 35px;
+	margin-bottom: 10px;
 }
 
 p {
@@ -71,6 +71,13 @@ a:hover {
 	background-size: cover;
 	position: relative;
 	background-repeat: no-repeat;
+}
+
+.btn {
+	padding:5px 20px;
+	border-radius: 20px;
+	color:#fff;
+	margin:20px;
 }
 
 .hamburgerMenu {
@@ -152,8 +159,14 @@ a:hover {
 }
 
 .redActive {
-	color:#ff4b4f!important;
+	color:#ff4b4f !important;
 	text-decoration: underline;
+}
+
+.close {
+	padding: 20px !important;
+	color: #fff;
+	opacity: 1;
 }
 
 .extraLineHeight {
@@ -175,6 +188,19 @@ a:hover {
 
 .modal-body {
 	overflow: scroll;
+	padding: 0;
+}
+
+.bgModualImage {
+	background-size: cover;
+	height:100vh;
+	width:100%;
+}
+
+.modualTitle {
+	padding: 33% 0 0 3%;
+	color: #fff;
+	width:300px;
 }
 
 /* footer */
