@@ -1,0 +1,223 @@
+* {
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+	
+}
+
+h1 {
+	font-size: 55px;
+	font-weight:500;
+	font: bold;
+	font-family: 'Montserrat', sans-serif;
+}
+
+h2 {
+	font-weight:300;
+	font:medium;
+	font-family: 'Montserrat', sans-serif;
+}
+
+p {
+	font-weight:300;
+	font:thin;
+	font-family: 'Montserrat', sans-serif;
+
+}
+
+a {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 300;
+	cursor: pointer;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+.red, .redLink a {
+	color:#ff4b4f !important;
+}
+
+.blue, .blueLink a {
+	color:#80d9e3!important;
+}
+
+.green, .greenLink a {
+	color:#73d2a2!important;
+}
+
+.orange, .orangeLink a {
+	color:#f39140!important;
+}
+
+.purple, .purpleLink a {
+	color:#9973d2!important;
+}
+
+.redHam {
+	background-color:#ff4b4f !important;
+}
+
+.img { 
+	width:100%;
+}
+
+.clearFloat{
+	clear: both;
+}
+
+.bgImage {
+	background-size: cover;
+	position: relative;
+	background-repeat: no-repeat;
+}
+
+.hamburgerMenu {
+	position: absolute;
+	right:20px;
+	top:20px;
+	cursor: pointer;
+	transform: rotate(180deg);
+}
+
+.hamDiv {
+	position: relative;
+	background-position: left top;
+	width:40px;
+	height:5px;
+	border-radius: 4px;
+	margin:4px 0;
+	background-color: #fff;
+	transition: width 0.5s;
+}
+
+
+
+/* index */
+
+.linkLeft {
+	font-size:20px;
+	color: #fff;
+	margin:40px 0 0 40px;
+	float: left;
+}
+
+.linkRight{
+	font-size:20px;
+	color:#fff;
+	margin:50px 40px 0 0;
+	float: right;
+}
+
+.linkRight:hover, .linkLeft:hover {
+	color: #eee;
+	opacity: 0.7;
+}
+
+.mainHeading{
+	color:#fff;
+	text-align: center;
+	float: left;
+}
+
+.mainPageLinks a {
+	color:#fff;
+	text-decoration:none;
+	font-size: 16px;
+	padding:0 18px;
+}
+/* join urban climb */
+
+.leftHeading {
+	text-align: left;
+	color: #fff;
+    width: 393px;
+    float:left;
+}
+
+.leftNavLinks {
+	padding-left:40px;
+	font-size: 12px;
+	padding-top:20px;
+	width:103px;
+	position: relative;
+	left: -55px;
+	float: left;
+}
+
+.leftNavLinks a {
+	margin-top:10px;
+	color: #fff;
+}
+
+.redActive {
+	color:#ff4b4f!important;
+	text-decoration: underline;
+}
+
+.extraLineHeight {
+	padding-top: 15px;
+}
+
+/* Join Urban Climb Modual */
+
+.pricesTable {
+	float: left; 
+	border: #eeeeee solid 2px;
+	padding:20px;
+}
+
+/* footer */
+
+footer {
+	position: absolute;
+	bottom:20px;
+	width:100%;
+}
+
+.altNavLink {
+	float:left;
+	width:33.3%;
+	padding-left: 80px;
+}
+
+.altNavLink a {
+	color:#fff;
+	text-decoration: underline;
+}
+
+.homeLink{
+	padding:20px 100px 0 0;
+}
+
+.contactLink {
+	padding:20px 0 0 70px;
+}
+
+.socialContain {
+	float:right;
+	width:33.3%;
+    padding-right: 40px;
+}
+
+.socialIcon {
+	float:right;
+    width: 100px;
+    padding: 0 40px 0 40px
+}
+
+.alignmentPadding {
+	padding-top: 3px;
+}
+
+
+.readMore {
+	text-align: center;
+	width:33.3%;
+	color:#fff;
+	margin: 0 auto;
+	cursor:pointer;
+	float: left;
+}
+
