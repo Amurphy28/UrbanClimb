@@ -9,12 +9,28 @@ h1 {
 	font-size: 55px;
 	font-weight:500;
 	font-family: 'Montserrat', sans-serif;
+	margin-bottom: 15px;
 }
 
 h2 {
 	font-weight:400;
 	font-family: 'Montserrat', sans-serif;
 	font-size: 35px;
+	margin-bottom: 10px;
+}
+
+
+h3 {
+	font-weight:400;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 25px;
+	margin-bottom: 10px;
+}
+
+h4 {
+	font-weight:300;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 20px;
 	margin-bottom: 10px;
 }
 
@@ -78,6 +94,7 @@ a:hover {
 	border-radius: 20px;
 	color:#fff;
 	margin:20px;
+	font-family: 'Montserrat', sans-serif;
 }
 
 .hamburgerMenu {
@@ -182,13 +199,14 @@ a:hover {
 	margin:20px;
 }
 
-.modal-dialog {
+/*.modal-dialog {
 	width:90%!important;
-}
+}*/
 
 .modal-body {
 	overflow: scroll;
 	padding: 0;
+	border-radius: 10px;
 }
 
 .bgModualImage {
@@ -201,6 +219,46 @@ a:hover {
 	padding: 33% 0 0 3%;
 	color: #fff;
 	width:300px;
+}
+
+.specials {
+	width:33.3%;
+	float:left;
+	border:solid #dadada 2px;
+	padding:20px;
+	text-align: center;
+}
+
+.specialHeadings {
+	width: 90%;
+	margin: 0 auto;
+    line-height: 23px;
+    margin-bottom: 10px;
+}
+
+.circle {
+	background-color: #eee;
+	border-radius: 50%; 
+	width:70px;
+	height:70px;
+	margin: 20px auto;
+}
+
+.memberAdvertP {
+	padding:10% 17%;
+	border-bottom:solid #dadada 2px;
+}
+
+.6M {
+	float: left;
+	text-align: right;
+	width:50%;
+}
+
+.12M {
+	float: left;
+	text-align: left;
+	width:50%;
 }
 
 /* footer */
