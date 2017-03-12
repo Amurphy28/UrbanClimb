@@ -13,7 +13,7 @@ h1 {
 }
 
 h2 {
-	font-weight:400;
+	font-weight:700;
 	font-family: 'Montserrat', sans-serif;
 	font-size: 35px;
 	margin-bottom: 10px;
@@ -23,12 +23,12 @@ h2 {
 h3 {
 	font-weight:400;
 	font-family: 'Montserrat', sans-serif;
-	font-size: 25px;
-	margin-bottom: 10px;
+	font-size: 24px;
+	margin-bottom: 15px;
 }
 
 h4 {
-	font-weight:300;
+	font-weight:400;
 	font-family: 'Montserrat', sans-serif;
 	font-size: 20px;
 	margin-bottom: 10px;
@@ -37,6 +37,7 @@ h4 {
 p {
 	font-weight:300;
 	font-family: 'Montserrat', sans-serif;
+	line-height: 22px;
 
 }
 
@@ -96,7 +97,7 @@ a:hover {
 	padding:5px 20px;
 	border-radius: 20px;
 	color:#fff;
-	margin:20px;
+	margin:30px 0;
 	font-family: 'Montserrat', sans-serif;
 }
 
@@ -219,31 +220,34 @@ a:hover {
 }
 
 .modualTitle {
-	padding: 33% 0 0 3%;
+	padding: 32% 0 0 8%;
 	color: #fff;
-	width:300px;
+	width:338px;
 }
 
 .specials {
 	width:33.3%;
 	float:left;
-	border:solid #dadada 2px;
+	border-right: solid #dadada 2px;
+    border-bottom: 2px solid #dadada;
 	padding:20px;
 	text-align: center;
+	padding-bottom: 54px;
 }
 
 .specialHeadings {
-	width: 90%;
+	width: 85%;
 	margin: 0 auto;
-    line-height: 23px;
+    line-height: 19px;
     margin-bottom: 10px;
+    font-weight: 400;
 }
 
 .circle {
 	background-color: #eee;
 	border-radius: 50%; 
-	width:70px;
-	height:70px;
+	width:50px;
+	height:50px;
 	margin: 20px auto;
 }
 
