@@ -46,6 +46,7 @@ include 'header.php';
 
 <script>
 	var screenHeight = $(window).height();
+
 	var middlePos = (screenHeight/2) - 40;
 
 	var arrows = (middlePos - 30);
@@ -53,7 +54,7 @@ include 'header.php';
 	var screenWidth = $(window).width();
 
 	var widthMiddle = screenWidth - 120;
-
+	
 	$('.bgImage').css('height',screenHeight);
 	
 	$('.mainHeading').css('padding-top',middlePos);
@@ -63,4 +64,29 @@ include 'header.php';
 	$('.linkRight').css('padding-top',arrows);
 
 	$('.mainHeading').css('width',widthMiddle);
+
+
+	$( window ).resize(function() {
+		var screenHeight = $(window).height();
+
+		var middlePos = (screenHeight/2) - 40;
+
+		var arrows = (middlePos - 30);
+
+		var screenWidth = $(window).width();
+
+		var widthMiddle = screenWidth - 120;
+		
+		$('.bgImage').css('height',screenHeight);
+		
+		$('.mainHeading').css('padding-top',middlePos);
+
+		$('.linkLeft').css('padding-top',arrows);
+
+		$('.linkRight').css('padding-top',arrows);
+
+		$('.mainHeading').css('width',widthMiddle);
+
+	});
+
 </script>

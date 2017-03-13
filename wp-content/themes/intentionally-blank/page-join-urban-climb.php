@@ -84,11 +84,10 @@ include 'header.php';
 </body>
 
 <script>
+
 	var screenHeight = $(window).height();
 	var middlePos = (screenHeight/2) - 100;
-
 	var arrows = (middlePos - 30);
-
 	var leftNav = (middlePos + 50);
 
 	$('.bgImage').css('height',screenHeight);
@@ -103,8 +102,44 @@ include 'header.php';
 
 	$('.linkRight').css('padding-top',arrows);
 
+	$('.Mon6').on('click touch', function(){
+		$('.Mon6').addClass('red');
+		$('.Mon12').addClass('grey');
+		$('.Mon6').removeClass('grey');
+		$('.priceMon6').css('display','block');
+		$('.priceMon12').css('display','none');
+	});
+	$('.Mon12').on('click touch', function(){
+		$('.Mon6').addClass('grey');
+		$('.Mon12').removeClass('grey');
+		$('.priceMon6').css('display','none');
+		$('.priceMon12').css('display','block');
+	});
+
+	$( window ).resize(function() {
+		var screenHeight = $(window).height();
+		var middlePos = (screenHeight/2) - 100;
+		var arrows = (middlePos - 30);
+		var leftNav = (middlePos + 50);
+
+		$('.bgImage').css('height',screenHeight);
+		
+		$('.mainHeading').css('padding-top',middlePos);
+
+		$('.leftHeading').css('padding-top',middlePos);
+
+		$('.leftNavLinks').css('padding-top',leftNav);
+
+		$('.linkLeft').css('padding-top',arrows);
+
+		$('.linkRight').css('padding-top',arrows);
+
+	});
+
 	$('.hamburgerMenu').on('click touch',function(){
 		$('.H2').css('width','30px');
 		$('.H3').css('width','20px');
 	});
+
+
 </script>

@@ -91,13 +91,15 @@ a:hover {
 	background-size: cover;
 	position: relative;
 	background-repeat: no-repeat;
+	height: 100vh;
+	width:100%;
 }
 
 .btn {
 	padding:5px 20px;
 	border-radius: 20px;
 	color:#fff;
-	margin:30px 0;
+	margin:30px 0 0;
 	font-family: 'Montserrat', sans-serif;
 }
 
@@ -129,6 +131,8 @@ a:hover {
 	color: #fff;
 	margin:40px 0 0 40px;
 	float: left;
+	position: relative;
+	z-index: 10;
 }
 
 .linkRight{
@@ -196,16 +200,18 @@ a:hover {
 
 /* Join Urban Climb Modual */
 
-.pricesTable {
-	float: left; 
-	border: #eeeeee solid 2px;
-	padding: 35px 10px 10px;
-	margin:20px;
+.pricesContain {
+	width:680px;
+	margin:0 auto;
 }
 
-/*.modal-dialog {
-	width:90%!important;
-}*/
+.pricesTable {
+	float: left; 
+	border: #dadada solid 2px;
+	padding:40px;
+	margin:50px 20px 40px;
+	width:300px;
+}
 
 .modal-body {
 	overflow: scroll;
@@ -256,21 +262,16 @@ a:hover {
 	border-bottom:solid #dadada 2px;
 }
 
-.Mon6 {
+.alignRight {
 	float:left;
 	text-align:right;
 	width:50%;
 }
 
-.Mon12 {
+.alignLeft {
 	float:left;
 	text-align:left;
 	width:50%;
-}
-
-.pricesContain {
-	width:500px;
-	margin:0 auto;
 }
 
 .prices {
@@ -281,14 +282,39 @@ a:hover {
 }
 
 .nonContract {
-	width:80%;
+	width:640px;
 	border: #dadada 2px solid;
 	padding:40px 40px 20px 40px;
-	margin:20px auto;
+	margin:20px auto 40px;
 }
 
 .contractBtn {
 	float:left;
+}
+
+.alignLeft p {
+	line-height: 30px;
+}
+
+.Mon12, .Mon6 {
+	cursor: pointer;
+}
+
+.Mon12:hover, .Mon6:hover {
+	text-decoration: underline;
+}
+
+.grey {
+	color:#dadada!important;
+}
+
+.priceMon6 {
+	display: none;
+	margin-bottom: -15px;
+}
+
+.priceMon12 {
+	margin-bottom: -15px;
 }
 
 /* footer */
