@@ -23,8 +23,8 @@ h2 {
 h3 {
 	font-weight:400;
 	font-family: 'Montserrat', sans-serif;
-	font-size: 24px;
-	margin-bottom: 15px;
+	font-size: 27px;
+	margin-bottom: 10px;
 }
 
 h4 {
@@ -208,9 +208,14 @@ a:hover {
 .pricesTable {
 	float: left; 
 	border: #dadada solid 2px;
-	padding:40px;
-	margin:50px 20px 40px;
-	width:300px;
+	padding: 76px 40px 40px;
+    margin: 50px 20px 40px;
+    width: 300px;
+    height: 500px;
+}
+
+.priceTable h3 {
+	letter-spacing: -1px;
 }
 
 .modal-body {
@@ -305,7 +310,7 @@ a:hover {
 }
 
 .grey {
-	color:#dadada!important;
+	color:#dedede!important;
 }
 
 .priceMon6 {
@@ -315,6 +320,10 @@ a:hover {
 
 .priceMon12 {
 	margin-bottom: -15px;
+}
+
+.glyphicon-ok {
+	font-size: 12px !important;
 }
 
 /* footer */
